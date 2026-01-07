@@ -1,6 +1,8 @@
 :root {
-  --bg: blue;
-  --secondary: aqua;
+  --bg: #180a3f;
+  --primary: #2d5678;
+  --text: #e4eef7;
+  --font-title: "Exo 2", sans-serif;
 }
 
 * {
@@ -11,16 +13,26 @@
 
 a {
   text-decoration: none;
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
 }
 
 body {
-
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* HEADER */
 header {
-  background-color: aquamarine;
+  background: radial-gradient(circle at top left, var(--primary) 0%, var(--bg) 45%);
 }
 
+/* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
@@ -39,6 +51,7 @@ nav {
   }
 }
 
+/* HERO TITLE */
 #hero-title {
   height: 100vh;
   display: flex;
@@ -50,4 +63,15 @@ nav {
     max-width: 45%;
     margin: 0 0 0 150px;
   }
+}
+
+
+/* A PROPOS */
+#apropos {
+  background: radial-gradient(circle at bottom right, var(--primary) -15%, var(--bg) 30%);
+  height: 70vh;
+}
+
+#projet {
+  background: radial-gradient(circle at top right, var(--primary) -15%, var(--bg) 30%); 
 }
