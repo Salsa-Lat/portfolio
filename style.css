@@ -28,9 +28,9 @@ body {
 
 
 /* HEADER */
-header {
+/* header {
   background: radial-gradient(circle at top left, var(--primary) 0%, var(--bg) 45%);
-}
+} */
 
 /* NAVBAR */
 nav {
@@ -38,6 +38,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 75px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 
   ul {
     display: flex;
@@ -56,6 +59,7 @@ nav {
   height: 100vh;
   display: flex;
   align-items: center;
+  position: relative;
 
   div {
     display: flex;
@@ -67,11 +71,52 @@ nav {
 
 
 /* A PROPOS */
-#apropos {
+/* #apropos {
   background: radial-gradient(circle at bottom right, var(--primary) -15%, var(--bg) 30%);
   height: 70vh;
 }
 
 #projet {
   background: radial-gradient(circle at top right, var(--primary) -15%, var(--bg) 30%); 
+} */
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  gap: 25px;
+}
+
+section {
+  margin: 75px 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+input {
+  /* height: 50px; */
+  padding: 15px 8px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  padding: 15px 8px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact {
+  .center-container {
+    flex-direction: row;
+
+    p {
+      width: 100%;
+    }
+  }
 }
