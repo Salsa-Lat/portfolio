@@ -1,8 +1,10 @@
 :root {
-  --bg: #180a3f;
-  --primary: #2d5678;
-  --text: #e4eef7;
+  --bg: #171328;
+  --primary: #A48DFA;
+  --secondary: #87B8F8;
+  --text: #F7F5FD;
   --font-title: "Exo 2", sans-serif;
+  --gradiant: linear-gradient(45deg, var(--primary), var(--secondary));
 }
 
 * {
@@ -27,15 +29,31 @@ body {
 }
 
 
-/* HEADER */
-/* header {
-  background: radial-gradient(circle at top left, var(--primary) 0%, var(--bg) 45%);
-} */
+/* ========================== PB HERE ======================= */
+.btn {
+  padding: 14px 35px;
+  background: var(--gradiant);
+  width: fit-content;
+  color: var(--bg);
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  transition: ease-out 300ms;
+}
+
+
+.btn:hover {
+  background-clip: text;
+  color: transparent;
+  border: 2px solid var(--secondary);
+  transition: ease-out 300ms;
+}
+
 
 /* NAVBAR */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   padding: 15px 75px;
   position: absolute;
@@ -51,6 +69,24 @@ nav {
     li {
       padding: 10px 25px;
     }
+
+    li a {
+      position: relative;
+    }
+
+    li a::after {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: var(--text);
+    transition: 0.5s ease-out;
+    }
+    li a:hover::after {
+        width: 100%;
+    }
   }
 }
 
@@ -61,24 +97,22 @@ nav {
   align-items: center;
   position: relative;
 
+  h1 {
+    font-size: 50px;
+  }
+
   div {
     display: flex;
     flex-direction: column;
     max-width: 45%;
     margin: 0 0 0 150px;
+    gap: 40px;
+
+    p {
+      line-height: 28px;
+    }
   }
 }
-
-
-/* A PROPOS */
-/* #apropos {
-  background: radial-gradient(circle at bottom right, var(--primary) -15%, var(--bg) 30%);
-  height: 70vh;
-}
-
-#projet {
-  background: radial-gradient(circle at top right, var(--primary) -15%, var(--bg) 30%); 
-} */
 
 .center-container {
   display: flex;
