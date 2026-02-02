@@ -177,13 +177,13 @@ nav {
   }
 }
 
-/* .project-cards:nth-child(2) {
+.cards:nth-child(even) {
+  flex-direction: row-reverse;
 
   h3 {
     color: var(--secondary);
-    aligner a gauche
   }
-} */
+}
 
 /* ================= CONTACT =================== */
 
