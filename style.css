@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -55,6 +56,15 @@ h2 {
   background-clip: text;
   color: transparent;
   width: fit-content;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+section {
+  margin: 75px 70px;
 }
 
 .btn-more {
@@ -62,6 +72,26 @@ h2 {
   background-clip: text;
   color: transparent;
   width: fit-content;
+  position: relative;
+  font-size: 18px;
+}
+
+/* .btn-more::after {
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: var(--secondary);
+  transition: 0.5s ease-out;
+}
+.btn-more:hover::after {
+  width: 100%;
+} */
+
+.space {
+  padding: 30px 0;
 }
 
 
@@ -147,23 +177,63 @@ nav {
 }
 
 
+/* ================== A PROPOS ===================== */
+
+.blue-background {
+  background: linear-gradient(45deg, #A48DFA25,  #87b8f825);
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #87b8f85e;
+}
+
+
 /* ================= PROJET =================== */
 
 .project-cards {
   display: flex;
   flex-direction: column;
+  margin: 30px 0;
 }
 
 .cards {
   display: flex;
-  padding: 50px 0;
+  padding: 50px 15px;
   border-top: 1px solid var(--secondary);
+  gap: 35px;
+
+  img {
+    width: 345px;
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+  }
+}
+
+.style {
+  width: 349px;
+  height: 254px;
+  position: relative;
+}
+.style::after {
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  content: "";
+  width: 349px;
+  height: 254px;
+  background-color: var(--secondary);
+  z-index: -1;
+  box-shadow: 4px 4px 5px #87b8f886;
 }
 
 .card-p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  p {
+    line-height: 28px;
+  }
 }
 
 .project-cards:last-child {
@@ -185,11 +255,26 @@ nav {
   }
 }
 
-/* ================= CONTACT =================== */
+#projet {
+  
+  .btn {
+    background-clip: text;
+    color: transparent;
+  }
 
-section {
-  margin: 75px 70px;
+  .btn:hover {
+    background: var(--gradiant);
+    color: var(--bg);
+  }
 }
+
+.project-center {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ================= CONTACT =================== */
 
 form {
   display: flex;
@@ -198,10 +283,16 @@ form {
   width: 100%;
 }
 
+.space-top {
+  margin: 55px 0;
+}
+
 input {
   /* height: 50px; */
   padding: 15px 8px;
   font-size: 16px;
+  border-radius: 15px;
+  border: none;
 }
 
 textarea {
@@ -209,14 +300,83 @@ textarea {
   padding: 15px 8px;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  border: none;
+  height: 100px;
 }
+
+button {
+  padding: 14px 35px;
+  width: fit-content;
+  background: var(--gradiant);
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  border: 2px solid var(--secondary);
+  border-radius: 15px;
+  transition: ease-out 300ms;
+  font-size: 16px;
+}
+
+button:hover {
+  background: var(--gradiant);
+  color: var(--bg);
+}
+
+
 
 #contact {
   .center-container {
     flex-direction: row;
-
-    p {
-      width: 100%;
-    }
+    gap: 50px;
   }
+}
+
+.contact-top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 100px;
+}
+
+.reseau {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+.fa-brands, .fa-regular {
+  padding: 15px;
+  border: 2px solid var(--secondary);
+  position: relative;
+  text-align: center;
+  border-radius: 50px;
+  /* color: var(--secondary); */
+  background: var(--gradiant);
+  color: transparent;
+  background-clip: text;
+  transition: ease-out 300ms;
+}
+
+.fa-linkedin {
+  width: 75px;
+}
+
+.fa-brands:hover, .fa-regular:hover {
+  background: var(--gradiant);
+  color: var(--bg);
+}
+
+form label:first-child {
+  color: var(--primary);
+}
+
+form label {
+  background: linear-gradient(180deg, var(--primary), var(--secondary));
+  background-clip: text;
+  color: transparent;
+}
+
+form label:last-of-type {
+  color: var(--secondary);
 }

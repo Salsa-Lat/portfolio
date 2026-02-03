@@ -1,0 +1,85 @@
+:root {
+  --bg: #171328;
+  --primary: #A48DFA;
+  --secondary: #87B8F8;
+  --text: #F7F5FD;
+  --font-title: "Exo 2", sans-serif;
+  --gradiant: linear-gradient(45deg, var(--primary), var(--secondary));
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  background: var(--gradiant);
+  color: transparent;
+  background-clip: text;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  padding: 14px 35px;
+  background: var(--gradiant);
+  width: fit-content;
+  color: var(--bg);
+  font-weight: 600;
+  border: 2px solid var(--secondary);
+  border-radius: 15px;
+  transition: ease-out 300ms;
+}
+
+.btn:hover {
+  background-clip: text;
+  color: transparent;
+  border: 2px solid var(--secondary);
+  transition: ease-out 300ms;
+}
+
+section {
+  margin: 75px 70px;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* =================== Cards =================== */
+
+.card-align {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  /* stuff in here */
+}
+
+.cards {
+
+  img {
+    /* stuff in here */
+  }
+}

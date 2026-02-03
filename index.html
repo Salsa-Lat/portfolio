@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>PortFolio</title>
+  <title>Salsabila Latasse</title>
 </head>
 <body>
 
@@ -31,7 +31,7 @@
 
       <div>
         <h1>Salsabila <span>LATASSE</span></h1>
-        <p>Recherche d'Alternance Front-end</p>
+        <p>Apprenante en conception & développement web</p>
         <a href="projets/test.html" class="btn" onclick="">Voir mon CV</a>
       </div>
 
@@ -43,36 +43,41 @@
   <!-- SECTION 1 : A PROPOS -->
   <section id="apropos">
 
-    <h2>A propos de moi</h2>
+    <div class="blue-background">
 
-    <div class="center-container">
+      <h2>A propos de moi</h2>
 
-      <div class="side">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolore doloremque. Aliquam ducimus rem temporibus sit, magni error voluptatibus qui laborum tempora autem atque suscipit consequuntur praesentium sequi numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum architecto possimus minus sequi atque nulla debitis veritatis? Natus quae harum ducimus assumenda placeat odio quas explicabo. Adipisci, suscipit aut!</p>
+        <div class="center-container space-top">
 
-        <img src="" alt="">
-      </div>
+          <div class="side">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, dolore doloremque. Aliquam ducimus rem temporibus sit, magni error voluptatibus qui laborum tempora autem atque suscipit consequuntur praesentium sequi numquam eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsum architecto possimus minus sequi atque nulla debitis veritatis? Natus quae harum ducimus assumenda placeat odio quas explicabo. Adipisci, suscipit aut!</p>
 
-      
+            <img src="" alt="">
+          </div>
 
-      <!-- COMPETENCE -->
-      <!-- <h3>Compétences :</h3>
+          
 
-      <div>
+          <!-- COMPETENCE -->
+          <!-- <h3>Compétences :</h3>
 
-        <i></i>
-        <i></i>
-        <i></i>
+          <div>
 
-      </div> -->
+            <i></i>
+            <i></i>
+            <i></i>
+
+          </div> -->
+
+        </div>
 
     </div>
+
 
   </section>
 
 
   <!-- SECTION 2 : PROJET -->
-  <section id="projet">
+  <section id="projet" class="space">
 
     <h2>Portfolio</h2>
 
@@ -84,16 +89,13 @@
         <!-- card 1 -->
         <div class="cards">
 
-          <img src="" alt="">
+          <div class="style">
+            <img src="asset/blog.png" alt="blog">
+          </div>
 
           <div class="card-p">
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae suscipit dignissimos nulla quidem nostrum tempora!</p>
-            <div>
-              <span>lorem</span>
-              <span>lorem</span>
-              <span>lorem</span>
-            </div>
+            <h3>My Blog</h3>
+            <p>Lors de mon apprentissage en autodidacte, je me suis exercée en HTML et CSS en reproduisant des maquettes trouvées sur internet. Ces maquettes viennent du site W3School. Dans cette maquette, j'ai reproduis un blog. C'était l'un de mes premier exercice c'est pour cela que j'ai choisis une maquette assez simple.</p>
             <a href="" class="btn-more">Voir le projet ></a>
           </div>
 
@@ -102,16 +104,13 @@
         <!-- card 2 -->
         <div class="cards">
 
-          <img src="" alt="">
+          <div class="style">
+            <img src="asset/archi.png" alt="architecture">
+          </div>
 
-          <div>
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae suscipit dignissimos nulla quidem nostrum tempora!</p>
-            <div>
-              <span>lorem</span>
-              <span>lorem</span>
-              <span>lorem</span>
-            </div>
+          <div class="card-p">
+            <h3>BR Architects</h3>
+            <p>De même que pour le projet précédant, c'était l'une des premières maquettes que j'ai reproduit en tant qu'exercice, repris du même site, W3School.</p>
             <a href="" class="btn-more">Voir le projet ></a>
           </div>
 
@@ -120,16 +119,13 @@
         <!-- card 3 -->
         <div class="cards">
 
-          <img src="" alt="">
+          <div class="style">
+            <img src="asset/canyon.png" alt="canyon">
+          </div>
 
-          <div>
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae suscipit dignissimos nulla quidem nostrum tempora!</p>
-            <div>
-              <span>lorem</span>
-              <span>lorem</span>
-              <span>lorem</span>
-            </div>
+          <div class="card-p">
+            <h3>Canyon</h3>
+            <p>Celle-ci est un exercice personnelle, j'ai repris du site officiel de Canyon, marque de vélo, et l'ai reproduit. C'est le premier site où j'ai du me débrouiller seule.</p>
             <a href="" class="btn-more">Voir le projet ></a>
           </div>
 
@@ -140,7 +136,10 @@
 
     </div>
 
-    <a href="" class="btn">Voir Plus</a>
+    <div class="project-center">
+      <a href="portfolio.html" class="btn">Voir Plus</a>
+    </div>
+    
 
   </section>
 
@@ -148,26 +147,43 @@
   <!-- SECTION 3 : CONTACT -->
   <section id="contact">
 
-    <h2>Contact</h2>
+    <div class="blue-background">
 
-    <div class="center-container">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque ad ex incidunt blanditiis necessitatibus harum, quaerat qui inventore ipsa laborum molestias saepe sint, voluptatum rem iste hic praesentium suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum neque vitae quod tempora? Dolorum in quibusdam harum facere odio optio, eveniet, est soluta at voluptatem corrupti itaque enim ab dignissimos!</p>
+      <h2>Contact</h2>
 
-      <form action="https://formspree.io/f/xeeonvvv" method="post">
-        
-        <label for="name">NOM Prénom :</label>
-        <input type="text" id="name" name="names" placeholder="NOM Prénom">  
+        <div class="center-container space-top">
 
-        <label for="mail">Email :</label>
-        <input type="text" id="mail" name="email" placeholder="Email">
+          <div class="contact-top">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque ad ex incidunt blanditiis necessitatibus harum, quaerat qui inventore ipsa laborum molestias saepe sint, voluptatum rem iste hic praesentium suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum neque vitae quod tempora? Dolorum in quibusdam harum facere odio optio, eveniet, est soluta at voluptatem corrupti itaque enim ab dignissimos!</p>
 
-        <label for="message">Message :</label>
-        <textarea name="message" id="message" placeholder="Votre message"></textarea>
+            <div class="reseau">
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-regular fa-envelope"></i></a>
+            </div>
+          </div>
+          
+        <form action="https://formspree.io/f/xeeonvvv" method="post">
+          
+          <label for="name">NOM Prénom :</label>
+          <input type="text" id="name" name="names" placeholder="NOM Prénom">  
 
-        <button>Envoyer</button>
+          <label for="mail">Email :</label>
+          <input type="text" id="mail" name="email" placeholder="Email">
 
-      </form>
+          <label for="message">Message :</label>
+          <textarea name="message" id="message" placeholder="Votre message"></textarea>
+
+          <button>Envoyer</button>
+
+        </form>
+      </div>
     </div>
+
+    
+      
+
+      
 
   </section>
 
@@ -184,12 +200,6 @@
         <li><a href="#projet">Projet</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
-      <div class="reseau">
-        <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-        <a href=""><i class="fa-regular fa-envelope"></i></a>
-      </div>
 
 
     </div>
