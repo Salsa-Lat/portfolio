@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #444;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #000;
+}
+.one_two {
+    background-color: #f7f4f2;
+    width: 100%;
+    z-index: 10;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+}
+.one_two.active {
+    top: -125px;
+}
+
+/*============================== header 1 ===========================*/
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 8%;
+}
+.one .logo {
+    width: 175px;
+}
+.one .one-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 67%;
+}
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    width: 30%;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.search i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+.search input {
+    width: 100%;
+    border: 0;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+}
+.one ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one ul li {
+    margin: 0 10px;
+    list-style: none;
+    text-transform: capitalize;
+}
+.one ul li a {
+    color: #444;
+    position: relative;
+    font-size: 14px;
+}
+.one ul li a:after {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    content: "";
+    width: 0;
+    height: 1.5px;
+    background-color: #444;
+    transition: 0.5s ease-out;
+}
+.one ul li a:hover:after {
+    width: 100%;
+    color: #000;
+}
+.one ul li a:hover {
+    color: #000;
+}
+.one .loc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d8d8d8;
+    padding: 10px;
+    border-radius: 5px;
+}
+.one .loc i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.one .loc p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.one a i {
+    color: #000;
+    margin-right: 20px;
+}
+.ic {
+    font-size: 20px;
+    margin: 0 10px;
+}
+hr {
+    border: 1px solid #d8d8d8;
+}
+
+/*============================== header 2 ==============================*/
+.two {
+    margin: 0 10%;
+}
+.two ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two ul li {
+    list-style: none;
+    font-size: 14px;
+    color: #444;
+    transition: 0.5s;
+    padding: 15px 20px;
+}
+.two ul span {
+    color: #fff;
+    background-color: #222;
+    padding: 4px 8px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.two ul li:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*
+
+
+
+*/
+
+/*======================= header 3 ==========================*/
+.three {
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    margin-top: 120px;
+}
+
+/*=========================== main ============================*/
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main img {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: -2;
+    object-fit: cover;
+    filter: brightness(75%);
+}
+.main h1, .main div {
+    position: absolute;
+}
+.main h1 {
+    bottom: 250px;
+    color: #fff;
+    font-size: 60px;
+}
+.main .btn-main {
+    bottom: 175px;
+}
+.btn-main .btn-main-one, .btn-main .btn-main-two {
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 0 5px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.btn-main .btn-main-one {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+}
+.btn-main .btn-main-two {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-main .btn-main-one:hover, .btn-main .btn-main-two:hover {
+    background-color: #888;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+/*=================== animation bar ======================*/
+.animation {
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+}
+
+/*====================== video ========================*/
+.vid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97.5%;
+    margin: 20px;
+}
+.vid video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: brightness(75%);
+    position: relative;
+}
+.vid h1, .vid .btn-vid {
+    position: absolute;
+}
+.vid h1 {
+    bottom: -450px;
+    color: #fff;
+    font-size: 50px;
+}
+.vid .btn-vid {
+    bottom: -525px;
+}
+.vid .btn-vid-one, .vid .btn-vid-two {
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin: 0 5px;
+    font-size: 14px;
+    transition: 0.5s;
+    border: none;
+}
+.vid .btn-vid-one:hover , .vid .btn-vid-two:hover {
+    cursor: pointer;
+    background-color: #bfbfbf;
+}
+
+/*====================== shop by world =======================*/
+.shop {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+} 
+.gal-shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.img-gal-shop {
+    display: flex;
+    align-items: end;
+    margin: 10px;
+    height: 170px;
+    width: 16.5%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.img-gal-shop img {
+    max-width: 100%;
+    position: absolute;
+    transition: 0.5s;
+    object-fit: cover;
+    transform: scale(1.05);
+}
+.img-gal-shop:hover img {
+    cursor: pointer;
+    transform: scale(1.0);
+}
+.img-gal-shop p {
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*========================== discover =========================*/
+.discover {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.disc-gal {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 10px;
+}
+.dgal-cadre-img {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.dgal-cadre-img img {
+    width: 100%;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+.dgal-cadre-img:hover img {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.dgal-cadre h3 a {
+    font-size: 24px;
+    color: #000;
+    position: relative;
+}
+.dgal-cadre h3 a:after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    content: "";
+    width: 0;
+    height: 1.5px;
+    background-color: #000000;
+    transition: 0.3s ease-out;
+}
+.dgal-cadre h3 a:hover:after {
+    width: 100%;
+}
+.dgal-cadre p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.btn-shoptb {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+    margin: 10px 0;
+}
+.btn-shoptb:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+
+/*====================== canyon support =======================*/
+.support {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.supp-gal {
+    display: flex;
+    align-items: center;
+    /*overflow: hidden;*/
+}
+.supp-cadre {
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    background-color: #f7f4f2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sgal-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 50%;
+    margin: 25px;
+}
+.sgal-text h3 a {
+    font-size: 22px;
+    margin: 5px 0;
+    position: relative;
+    cursor: pointer;
+    color: #000;
+}
+.sgal-text h3 a:hover {
+    border-bottom: 2px solid black;
+}
+.sgal-text p {
+    font-size: small;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+.sgal-img {
+    width: 50%;
+    overflow: hidden;
+}
+.sgal-img img {
+    width: 100%;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+.sgal-img:hover img {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/*======================== news & stories =======================*/
+.news_stories {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.news_stories-gal {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin: 10px;
+}
+.nsc-img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.nsc-img img {
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
+    transition: 0.5s;
+    transform: scale(1.08);
+}
+.nsc-img img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.ncs-text {
+    font-size: small;
+}
+.ncs-text h3, .ncs-text p {
+    margin: 10px 0;
+}
+.ncs-text h3 {
+    margin-top: 20px;
+}
+
+/*======================= footer 1 ==========================*/
+.f-one {
+    margin: 50px 100px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.f-one a {
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.f-one a span {
+    font-weight: bold;
+    margin-right: 15px;
+}
+.f-one a div {
+    width: 165px;
+    height: 40px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.f-one a div img {
+    width: 100%;
+    object-fit: cover;
+    object-position: -15px -20px;
+}
+.f-one a img {
+    width: 8%;
+    height: auto;
+    margin-left: 5px;
+}
+
+/*=================== footer 2 =======================*/
+.f-two {
+    margin: 50px 100px;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.f-two .logo {
+    width: 150px;
+}
+.ft-cadre h3 {
+    margin-bottom: 45px;
+    cursor: default;
+}
+.ft-cadre ul li {
+    list-style: none;
+}
+.ft-cadre ul li a {
+    color: #444;
+    line-height: 2.5;
+}
+.ft-cadre ul li a:hover {
+    border-bottom: 1px solid #222;
+}
+
+/*===================== footer 3 =======================*/
+.f-three {
+    margin: 50px 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.fth-left {
+    display: flex;
+    flex-direction: column;
+}
+.fth-left p {
+    margin-bottom: 20px;
+}
+.fthl-logo {
+    display: flex;
+}
+.logo_btn_i i {
+    font-size: 16px;
+} 
+.logo_btn_i {
+    border: 1px solid #000;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 12px;
+    margin: 0 8px;
+    transition: 0.5s;
+}
+.logo_btn_i:hover {
+    background-color: #e5e5e5;
+}
+.fth-right {
+    display: flex;
+    flex-direction: column;
+}
+.fth-right p {
+    margin-bottom: 20px;
+}
+.fthr-app {
+    display: flex;
+}
+.fthra-i {
+    width: 125px;
+    height: 46px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.fthr-app img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*==================== footer 4 ===========================*/
+.f-four {
+    margin: 50px 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.ff-left {
+    font-size: small;
+}
+.ff-right i {
+    margin-right: 5px;
+}
+.ff-right button:nth-child(1) {
+    margin-right: 20px;
+}

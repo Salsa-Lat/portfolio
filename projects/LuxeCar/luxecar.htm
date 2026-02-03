@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeCar</title>
+    <link rel="stylesheet" href="luxecar.css">
+</head>
+<body>
+    <!--===================== header ==========================-->
+    <header>
+        <!--responsive-->
+        <div class="menu_toggle">
+            <span></span>
+        </div>
+        <!--responsive-->
+        <h2 class="logo">Luxe<span>Cars</span></h2>
+        <ul class="menu">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#vehicules">Vehicules</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn"><a href="#">Login</a></button>
+    </header>
+
+    <!--===================== home =====================-->
+    <section id="accueil">
+        <div class="section-left">
+            <h1>Buy <span>your car</span> cheaper from us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti iste? Porro nisi ex est vitae asperiores neque maiores a odio vel, quod pariatur necessitatibus dolor itaque. Quam, labore deserunt.</p>
+            <button class="btn"><a href="#">buy now</a></button>
+        </div>
+        <div class="section-right">
+            <img src="images/img1.png">
+        </div>
+    </section>
+
+    <!--==================== vehicules =====================-->
+    <section id="vehicules">
+        <h3>Nos vehicules</h3>
+        <div class="box-align">
+            <div class="box">
+                <img class="box-size" src="images/car1.jpg">
+                <p>lamborghini</p>
+                <p><span>300.000$</span></p>
+                <button class="btn">acheter maintenant</button>
+            </div>
+            <div class="box">
+                <img class="box-size" src="images/car2.jpg">
+                <p>lamborghini</p>
+                <p><span>300.000$</span></p>
+                <button class="btn">acheter maintenant</button>
+            </div>
+            <div class="box">
+                <img class="box-size" src="images/car3.jpg">
+                <p>lamborghini</p>
+                <p><span>300.000$</span></p>
+                <button class="btn">acheter maintenant</button>
+            </div>
+            <div class="box">
+                <img class="box-size" src="images/car4.jpg">
+                <p>lamborghini</p>
+                <p><span>300.000$</span></p>
+                <button class="btn">acheter maintenant</button>
+            </div>
+            <div class="box">
+                <img class="box-size" src="images/car5.jpg">
+                <p>lamborghini</p>
+                <p><span>300.000$</span></p>
+                <button class="btn">acheter maintenant</button>
+            </div>
+            <div class="box">
+                <img src="images/car6.jpg">
+                <p>lamborghini</p>
+                <p><span>300.000$</span></p>
+                <button class="btn">acheter maintenant</button>
+            </div>
+        </div>
+    </section>
+
+    <!--================= services =====================-->
+    <section id="services">
+        <h3>Nos services</h3>
+        <div class="serv-align">
+            <div class="serv-box">
+                <div class="cercle"></div>
+                <p><span>Dépannage</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in unde fugiat harum cupiditate veritatis nisi alias.</p>
+                <button class="plus">Lire Plus</button>
+            </div>
+            <div class="serv-box">
+                <div class="cercle"></div>
+                <p><span>Dépannage</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in unde fugiat harum cupiditate veritatis nisi alias.</p>
+                <button class="plus">Lire Plus</button>
+            </div>
+            <div class="serv-box">
+                <div class="cercle"></div>
+                <p><span>Dépannage</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur in unde fugiat harum cupiditate veritatis nisi alias.</p>
+                <button class="plus">Lire Plus</button>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== contact =====================-->
+    <section id="contact">
+        <h3>Contact</h3>
+        <div class="cont-align">
+            <div class="cont-left">
+                <p>Notre Adress</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45199.89288424468!2d4.875185345204475!3d44.92347166750834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f55799c63221c7%3A0x408ab2ae4bfb580!2s26000%20Valence!5e0!3m2!1sfr!2sfr!4v1738920333458!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cont-right">
+                <p>Envoyer un message</p>
+                <form action="">
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="Adress Mail">
+                    <input type="text" placeholder="Object">
+                    <textarea name="" id="" cols="30" rows="12" placeholder="Message"></textarea>
+                    <button class="envoyer">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--================== footer ====================-->
+    <footer>
+        <p>yea idk what to say bla bla bla</p>
+    </footer>
+
+    <script>
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+        menu_toggle.onclick = function(){
+            menu_toggle.classList.toggle('active');
+            menu_toggle_span.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+    </script>
+
+</body>
+</html>

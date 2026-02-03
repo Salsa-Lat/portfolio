@@ -30,6 +30,10 @@ h1 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 body {
   background-color: var(--bg);
   color: var(--text);
@@ -39,12 +43,12 @@ body {
 .btn {
   padding: 14px 35px;
   background: var(--gradiant);
-  width: fit-content;
   color: var(--bg);
   font-weight: 600;
   border: 2px solid var(--secondary);
   border-radius: 15px;
   transition: ease-out 300ms;
+  width: fit-content;
 }
 
 .btn:hover {
@@ -71,15 +75,61 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 45px;
+  gap: 20px;
 }
 
 .cards {
-  /* stuff in here */
-}
 
-.cards {
+  padding: 20px 15px;
+  background: linear-gradient(45deg, #A48DFA25,  #87b8f825);
+  border-radius: 15px;
+  box-shadow: 2px 4px 5px #87b8f83c;
+  width: 325px;
+  transition: ease-out 300ms;
+  border: 1px solid #87b8f811;
+  position: relative;
+  overflow: hidden;
 
   img {
-    /* stuff in here */
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    object-position: center;
   }
+}
+
+.cards::after {
+  content: "";
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: #ffffff05;
+  top: -69%;
+  left: 50%;
+  transform: rotate(45deg);
+  transition: ease-out 200ms;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 4px 15px #87b8f82c;
+}
+
+.cards:hover::after {
+  content: "";
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background-color: #ffffff05;
+  top: -36%;
+  left: 50%;
+  transform: rotate(45deg);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }

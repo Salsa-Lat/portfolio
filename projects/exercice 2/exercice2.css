@@ -1,0 +1,176 @@
+* {
+    font-family: "Comfortaa", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color:rgb(246, 246, 255);
+}
+.center {
+    margin: 0 50px;
+}
+/*title*/
+.c {
+    text-align: center;
+}
+.hl {
+    color: white;
+    background-color: black;
+    padding: 2px 5px;
+}
+/*cadre*/
+.cadre {
+    position: relative;
+    display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    margin: 30px 15px;
+    padding: 0;
+    background-color: white;
+}
+/*image galery*/
+.img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 15px;
+}
+/*big cadre*/
+.leftcolumn {
+    width: 65%;
+    float: left;
+}
+.grey {
+    color: grey;
+}
+.comment {
+    float: right;
+    font-weight: bold;
+    padding: 10px;
+}
+.numb {
+    color: white;
+    background-color: black;
+    padding: 3px 8px;
+}
+.but {
+    border: 1px solid grey;
+    padding: 15px 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.but:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+/*small cadre*/
+.rightcolumn {
+    width: 35%;
+    float: left;
+}
+/*tableau*/
+.timg {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    text-align: left;
+    padding: 20px 15px;
+    font-size: 21px;
+    background-color: rgb(237, 237, 237);
+    width: 100%;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+td:hover {
+    background-color: rgb(213, 213, 213);
+    cursor: pointer;
+}
+/*tag*/
+.ttag {
+    padding: 20px 15px;
+    font-size: 21px;
+    background-color: rgb(237, 237, 237);
+    font-weight: bold;
+}
+.itag {
+    margin: 15px;
+}
+.stag {
+    background-color: rgb(237, 237, 237);
+    padding: 3px 5px;
+}
+.small {
+    font-size: 12px;
+    line-height: 3.0;
+}
+/*footer*/
+footer {
+    background-color: rgb(79, 79, 79);
+    width: 100%;
+    height: 200px;
+    color: white;
+    float: left;
+    margin: 0;
+}
+.foot {
+    margin: 15px;
+}
+.pb {
+    background-color: rgb(47, 47, 47);
+    color: rgb(207, 207, 207);
+    padding: 15px 20px;
+    border: none;
+}
+.pb:hover {
+    background-color: rgb(93, 93, 93);
+    color: rgb(23, 23, 23);
+    cursor: not-allowed;
+}
+.nb {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+}
+.nb:hover {
+    background-color: rgb(152, 152, 152);
+    color: black;
+    cursor: pointer
+}
+.smol {
+    line-height: 0.5;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+@media screen and (max-width: 1500px) {
+    .center {   
+      margin: 5px;
+    }
+  }
+@media screen and (max-width: 1000px) {
+    .center {
+        margin: 2px;
+    }
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
