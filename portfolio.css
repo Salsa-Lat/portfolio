@@ -133,3 +133,23 @@ section {
   flex-direction: column;
   gap: 15px;
 }
+
+.source {
+  font-size: small;
+}
+
+
+/* ===================== FOOTER ====================== */
+
+.bottom-foot {
+  background: linear-gradient(45deg, #A48DFA25,  #87b8f825);
+  border-radius: 15px 15px 0 0;
+  padding: 10px;
+  /* margin: 0 -75px; */
+  text-align: center;
+  /* box-shadow: 0 4px 15px #87b8f85e; */
+
+  p {
+    font-size: small;
+  }
+}

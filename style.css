@@ -181,7 +181,7 @@ nav {
 
 .blue-background {
   background: linear-gradient(45deg, #A48DFA25,  #87b8f825);
-  padding: 30px 20px;
+  padding: 40px 20px;
   border-radius: 15px;
   box-shadow: 0 4px 15px #87b8f85e;
 }
@@ -284,7 +284,7 @@ form {
 }
 
 .space-top {
-  margin: 55px 0;
+  margin: 30px 0;
 }
 
 input {
@@ -321,6 +321,7 @@ button {
 button:hover {
   background: var(--gradiant);
   color: var(--bg);
+  cursor: pointer;
 }
 
 
@@ -379,4 +380,67 @@ form label {
 
 form label:last-of-type {
   color: var(--secondary);
+}
+
+
+/* ===================== FOOTER ====================== */
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  margin: 0 75px;
+}
+
+.top-foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+
+  p {
+    color: var(--primary);
+    font-family: var(--font-title);
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  span {
+    color: var(--secondary);
+  }
+
+  ul {
+    list-style: none;
+    line-height: 2;
+    text-align: right;
+
+    li a {
+      position: relative;
+    }
+
+    li a::after {
+      position: absolute;
+      right: 0;
+      bottom: -3px;
+      content: "";
+      height: 2px;
+      width: 0%;
+      background-color: var(--text);
+      transition: 0.5s ease-out;
+    }
+    li a:hover::after {
+        width: 100%;
+    }
+  }
+}
+
+.bottom-foot {
+  background: linear-gradient(45deg, #A48DFA25,  #87b8f825);
+  border-radius: 15px 15px 0 0;
+  padding: 10px;
+  margin: 0 -75px;
+  text-align: center;
+  /* box-shadow: 0 4px 15px #87b8f85e; */
+
+  p {
+    font-size: small;
+  }
 }

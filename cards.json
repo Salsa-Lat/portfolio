@@ -1,0 +1,103 @@
+{
+  "project" : [
+    {
+      "id": "project-001",
+      "title": "Architects",
+      "desc": "Ce projet est une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
+      "source": "Source : W3School - 2025",
+      "alter": "architecture",
+      "link": "projects/exercice 1/exerice.html",
+      "image": "asset/archi.png"
+    },
+    {
+      "id": "project-002",
+      "title": "My Blog",
+      "desc": "Ce projet est aussi une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
+      "source": "Source : W3School - 2025",
+      "alter": "blog",
+      "link": "projects/exercice 2/exercice2.html",
+      "image": "asset/blog.png"
+    },
+    {
+      "id": "project-003",
+      "title": "Burger (reproduction)",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "burger",
+      "link": "projects/BurgerKing/burgerking.htm",
+      "image": "asset/burger.png"
+    },
+    {
+      "id": "project-004",
+      "title": "Canyon (reproduction)",
+      "desc": "Ce projet est une reproduction du site officiel de Canyon. Il m’a permis de tester mes compétences.",
+      "source": "Source : Site officiel Canyon - 2025",
+      "alter": "canyon",
+      "link": "projects/canyon/canyon.htm",
+      "image": "asset/canyon.png"
+    },
+    {
+      "id": "project-005",
+      "title": "LuxeCars",
+      "desc": "Ce projet est une reproduction, aussi trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "car",
+      "link": "projects/LuxeCar/luxecar.htm",
+      "image": "asset/car.png"
+    },
+    {
+      "id": "project-006",
+      "title": "Real Estate",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "designer",
+      "link": "projects/Agence/agence.htm",
+      "image": "asset/designer.png"
+    },
+    {
+      "id": "project-007",
+      "title": "Ecolobot",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "ecolo",
+      "link": "projects/Agro/agro.htm",
+      "image": "asset/ecolo.png"
+    },
+    {
+      "id": "project-008",
+      "title": "Fashion",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "fashion",
+      "link": "projects/Fashion/fashion.htm",
+      "image": "asset/fashion.png"
+    },
+    {
+      "id": "project-009",
+      "title": "My Food",
+      "desc": "Ce projet est aussi une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
+      "source": "Source : W3School - 2025",
+      "alter": "food",
+      "link": "projects/exercice 3/exercice3.html",
+      "image": "asset/food.png"
+    },
+    {
+      "id": "project-010",
+      "title": "Voyage Passion",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "passion",
+      "link": "projects/VoyagePassion/voyagepassion/voyagepassion.htm",
+      "image": "asset/passion.png"
+    },
+    {
+      "id": "project-011",
+      "title": "Air Travel",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "voyage",
+      "link": "projects/Voyage/voyage.htm",
+      "image": "asset/voyage.png"
+    }
+  ]
+}
