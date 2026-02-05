@@ -35,6 +35,7 @@ fetch("cards.json")
       const plus = document.createElement('a');
       plus.href = cards.link;
       plus.classList.add('btn');
+      plus.target = "_blank";
       plus.textContent = "Voir Plus";
       text.appendChild(plus);
 

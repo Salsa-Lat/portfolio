@@ -98,6 +98,42 @@
       "alter": "voyage",
       "link": "projects/Voyage/voyage.htm",
       "image": "asset/voyage.png"
+    },
+    {
+      "id": "project-012",
+      "title": "Studio Align Graphik",
+      "desc": "Ce projet est une reproduction d’une maquette fournie par nos formateurs pour comprendre la structure du code.",
+      "source": "Source : Maquette produite en formation",
+      "alter": "studioag",
+      "link": "https://salsa-lat.github.io/renduPortfolio/",
+      "image": "asset/StudioAG.png"
+    },
+    {
+      "id": "project-013",
+      "title": "La Ruche",
+      "desc": "De même pour ce projet, c'est une maquette fournie par nos formateurs afin d'améliorer nos compétences.",
+      "source": "Source : Maquette produite en formation",
+      "alter": "ruche",
+      "link": "https://salsa-lat.github.io/maquette_ruche/",
+      "image": "asset/ruche.png"
+    },
+    {
+      "id": "project-014",
+      "title": "RAPture",
+      "desc": "Ce projet est une maquette fournie par nos formateurs. Elle m’a permis d’apprendre à utiliser un wireframe.",
+      "source": "Source : Maquette produite en formation",
+      "alter": "rapture",
+      "link": "https://salsa-lat.github.io/renduCSS/",
+      "image": "asset/rapture.png"
+    },
+    {
+      "id": "project-015",
+      "title": "Partage",
+      "desc": "Ce projet a été réalisé et structuré en groupe à partir d’une problématique créée autour d’un sujet choisi.",
+      "source": "Source : Maquette produite en formation",
+      "alter": "partage",
+      "link": "https://salsa-lat.github.io/project-partage/index.html",
+      "image": "asset/partage.png"
     }
   ]
 }
