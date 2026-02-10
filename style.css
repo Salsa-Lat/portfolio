@@ -135,6 +135,13 @@ nav {
   }
 }
 
+.logo-nav {
+  width: 40px;
+  /* padding: 15px 0px; */
+  position: absolute;
+  z-index: 15;
+}
+
 /* HERO TITLE */
 #hero-title {
   height: 100vh;
@@ -174,6 +181,12 @@ nav {
 
 .side {
   display: flex;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 
