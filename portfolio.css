@@ -61,6 +61,7 @@ body {
 
 section {
   margin: 75px 70px;
+  position: relative;
 }
 
 .center-container {
@@ -83,7 +84,16 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* position: relative; */
 }
+
+.logo-nav {
+  width: 40px;
+  margin: 14px 0 0 72px;
+  /* position: absolute; */
+  z-index: 15;
+}
+
 
 /* =================== Cards =================== */
 
