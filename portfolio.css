@@ -112,6 +112,7 @@ section {
   border-radius: 15px;
   box-shadow: 2px 4px 5px #87b8f83c;
   width: 325px;
+  height: 450px;
   transition: ease-out 300ms;
   border: 1px solid #87b8f811;
   position: relative;

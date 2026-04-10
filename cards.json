@@ -1,31 +1,40 @@
 {
   "project" : [
     {
-      "id": "project-001",
-      "title": "Architects",
-      "desc": "Ce projet est une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
-      "source": "Source : W3School - 2025",
-      "alter": "architecture",
-      "link": "projects/exercice 1/exerice.html",
-      "image": "asset/archi.png"
+      "id": "project-015",
+      "title": "Partage",
+      "desc": "Ce projet a été réalisé et structuré en groupe à partir d’une problématique créée autour d’un sujet choisi.",
+      "source": "Source : Maquette produite en formation - 2026",
+      "alter": "partage",
+      "link": "https://salsa-lat.github.io/project-partage/index.html",
+      "image": "asset/partage.png"
     },
     {
-      "id": "project-002",
-      "title": "My Blog",
-      "desc": "Ce projet est aussi une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
-      "source": "Source : W3School - 2025",
-      "alter": "blog",
-      "link": "projects/exercice 2/exercice2.html",
-      "image": "asset/blog.png"
+      "id": "project-014",
+      "title": "RAPture",
+      "desc": "Ce projet est une maquette fournie par nos formateurs. Elle m’a permis d’apprendre à utiliser un wireframe.",
+      "source": "Source : Maquette produite en formation - 2026",
+      "alter": "rapture",
+      "link": "https://salsa-lat.github.io/renduCSS/",
+      "image": "asset/rapture.png"
     },
     {
-      "id": "project-003",
-      "title": "Burger (reproduction)",
-      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
-      "source": "Source : Youtube, Faiz Dev - 2025",
-      "alter": "burger",
-      "link": "projects/BurgerKing/burgerking.htm",
-      "image": "asset/burger.png"
+      "id": "project-013",
+      "title": "La Ruche",
+      "desc": "De même pour ce projet, c'est une maquette fournie par nos formateurs afin d'améliorer nos compétences.",
+      "source": "Source : Maquette produite en formation - 2025",
+      "alter": "ruche",
+      "link": "https://salsa-lat.github.io/maquette_ruche/",
+      "image": "asset/ruche.png"
+    },
+    {
+      "id": "project-012",
+      "title": "Studio Align Graphik",
+      "desc": "Ce projet est une reproduction d’une maquette fournie par nos formateurs pour comprendre la structure du code.",
+      "source": "Source : Maquette produite en formation - 2025",
+      "alter": "studioag",
+      "link": "https://salsa-lat.github.io/renduPortfolio/",
+      "image": "asset/StudioAG.png"
     },
     {
       "id": "project-004",
@@ -37,49 +46,13 @@
       "image": "asset/canyon.png"
     },
     {
-      "id": "project-005",
-      "title": "LuxeCars",
-      "desc": "Ce projet est une reproduction, aussi trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
-      "source": "Source : Youtube, Faiz Dev - 2025",
-      "alter": "car",
-      "link": "projects/LuxeCar/luxecar.htm",
-      "image": "asset/car.png"
-    },
-    {
-      "id": "project-006",
-      "title": "Real Estate",
+      "id": "project-011",
+      "title": "Air Travel",
       "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
       "source": "Source : Youtube, Faiz Dev - 2025",
-      "alter": "designer",
-      "link": "projects/Agence/agence.htm",
-      "image": "asset/designer.png"
-    },
-    {
-      "id": "project-007",
-      "title": "Ecolobot",
-      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
-      "source": "Source : Youtube, Faiz Dev - 2025",
-      "alter": "ecolo",
-      "link": "projects/Agro/agro.htm",
-      "image": "asset/ecolo.png"
-    },
-    {
-      "id": "project-008",
-      "title": "Fashion",
-      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
-      "source": "Source : Youtube, Faiz Dev - 2025",
-      "alter": "fashion",
-      "link": "projects/Fashion/fashion.htm",
-      "image": "asset/fashion.png"
-    },
-    {
-      "id": "project-009",
-      "title": "My Food",
-      "desc": "Ce projet est aussi une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
-      "source": "Source : W3School - 2025",
-      "alter": "food",
-      "link": "projects/exercice 3/exercice3.html",
-      "image": "asset/food.png"
+      "alter": "voyage",
+      "link": "projects/Voyage/voyage.htm",
+      "image": "asset/voyage.png"
     },
     {
       "id": "project-010",
@@ -91,49 +64,76 @@
       "image": "asset/passion.png"
     },
     {
-      "id": "project-011",
-      "title": "Air Travel",
+      "id": "project-009",
+      "title": "My Food",
+      "desc": "Ce projet est aussi une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
+      "source": "Source : W3School - 2025",
+      "alter": "food",
+      "link": "projects/exercice 3/exercice3.html",
+      "image": "asset/food.png"
+    },
+    {
+      "id": "project-008",
+      "title": "Fashion",
       "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
       "source": "Source : Youtube, Faiz Dev - 2025",
-      "alter": "voyage",
-      "link": "projects/Voyage/voyage.htm",
-      "image": "asset/voyage.png"
+      "alter": "fashion",
+      "link": "projects/Fashion/fashion.htm",
+      "image": "asset/fashion.png"
     },
     {
-      "id": "project-012",
-      "title": "Studio Align Graphik",
-      "desc": "Ce projet est une reproduction d’une maquette fournie par nos formateurs pour comprendre la structure du code.",
-      "source": "Source : Maquette produite en formation",
-      "alter": "studioag",
-      "link": "https://salsa-lat.github.io/renduPortfolio/",
-      "image": "asset/StudioAG.png"
+      "id": "project-007",
+      "title": "Ecolobot",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "ecolo",
+      "link": "projects/Agro/agro.htm",
+      "image": "asset/ecolo.png"
     },
     {
-      "id": "project-013",
-      "title": "La Ruche",
-      "desc": "De même pour ce projet, c'est une maquette fournie par nos formateurs afin d'améliorer nos compétences.",
-      "source": "Source : Maquette produite en formation",
-      "alter": "ruche",
-      "link": "https://salsa-lat.github.io/maquette_ruche/",
-      "image": "asset/ruche.png"
+      "id": "project-006",
+      "title": "Real Estate",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "designer",
+      "link": "projects/Agence/agence.htm",
+      "image": "asset/designer.png"
     },
     {
-      "id": "project-014",
-      "title": "RAPture",
-      "desc": "Ce projet est une maquette fournie par nos formateurs. Elle m’a permis d’apprendre à utiliser un wireframe.",
-      "source": "Source : Maquette produite en formation",
-      "alter": "rapture",
-      "link": "https://salsa-lat.github.io/renduCSS/",
-      "image": "asset/rapture.png"
+      "id": "project-005",
+      "title": "LuxeCars",
+      "desc": "Ce projet est une reproduction, aussi trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "car",
+      "link": "projects/LuxeCar/luxecar.htm",
+      "image": "asset/car.png"
     },
     {
-      "id": "project-015",
-      "title": "Partage",
-      "desc": "Ce projet a été réalisé et structuré en groupe à partir d’une problématique créée autour d’un sujet choisi.",
-      "source": "Source : Maquette produite en formation",
-      "alter": "partage",
-      "link": "https://salsa-lat.github.io/project-partage/index.html",
-      "image": "asset/partage.png"
+      "id": "project-003",
+      "title": "Burger (reproduction)",
+      "desc": "Ce projet est une reproduction, trouvée sur Youtube afin de comprendre et m’entraîner en HTML et CSS.",
+      "source": "Source : Youtube, Faiz Dev - 2025",
+      "alter": "burger",
+      "link": "projects/BurgerKing/burgerking.htm",
+      "image": "asset/burger.png"
+    },
+    {
+      "id": "project-002",
+      "title": "My Blog",
+      "desc": "Ce projet est aussi une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
+      "source": "Source : W3School - 2025",
+      "alter": "blog",
+      "link": "projects/exercice 2/exercice2.html",
+      "image": "asset/blog.png"
+    },
+    {
+      "id": "project-001",
+      "title": "Architects",
+      "desc": "Ce projet est une maquette que j'ai reproduit, trouvée sur internet afin de m’entraîner en HTML et CSS.",
+      "source": "Source : W3School - 2025",
+      "alter": "architecture",
+      "link": "projects/exercice 1/exerice.html",
+      "image": "asset/archi.png"
     }
   ]
 }

@@ -179,24 +179,48 @@ nav {
   gap: 25px;
 }
 
+/* ================== A PROPOS ===================== */
 .side {
   display: flex;
+  gap: 50px;
+  align-items: flex-start;
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 65%;
 }
-
-
-/* ================== A PROPOS ===================== */
 
 .blue-background {
   background: linear-gradient(45deg, #A48DFA25,  #87b8f825);
   padding: 40px 20px;
   border-radius: 15px;
   box-shadow: 0 4px 15px #87b8f85e;
+}
+
+.right-side {
+  width: 35%;
+
+  h3 {
+    color: var(--primary);
+    margin-bottom: 20px;
+  }
+}
+
+.logoAlign {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    object-position: center;
+  }
 }
 
 
